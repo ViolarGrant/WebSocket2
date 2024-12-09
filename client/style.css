@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#chatbox {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius:10px;
+  overflow-y: scroll;
+  padding: 10px;
+  background-color:rgb(188, 144, 230);
+  font-size: 18px;
+  font-family: Poppins;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  gap: 5px
+}
+
+#chatbox p {
+  display: flex;
+  margin: 0;
+  width: 90%;
+  justify-content: center;
+  background-color:rgb(188, 105, 233);
+  border-radius:10px;
+  border: 2px solid #e7caf7;
+}
+
+#chatbox p:first-child{
+  background-color:rgb(11, 205, 163);
+  border: 2px solid black;
+}
+
+#chatbox p:nth-child(2n){
+  background-color:rgb(231, 202, 247);
+  border: 2px solid rgb(188, 105, 233);
+}
+
+#messageInput {
+  width: 200px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#messageInput::placeholder{
+  font-family: Poppins;
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  
+}
+
+#sendButton {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color:aquamarine;
+  border-radius:10px;
+  border: 1px solid black;
+}
